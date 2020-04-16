@@ -2,37 +2,24 @@ package app;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        
-       for (int k = 1000; k <= 256000; k = k +1){
-              System.out.println("The count is " + k);
-              System.out.println("Let's keep Counting");
+         
+      
+        for (int k = 22; k <= 28; k = k +3){
+           System.out.println(+k);
           }
       
-       for (int i = 10; i <= 20; i = i +1){
-              System.out.println("The count is " + i);
-              System.out.println("Let's keep Counting");
+       for (int i = 2; i <= 32; i = i * 2){
+              System.out.println(+ i);
           }
 
-      for (int j = 10; j <= 100; j = j +1){
-              System.out.println("The count is " + j);
-              System.out.println("Let's keep Counting");
+       for (int m = 3; m >= -81; m = m * -m) {
+              System.out.println(+ m);
           }
 
-
-      for (int m = 11; m <= 12; m = m +1){
-              System.out.println("The count is " + m);
-              System.out.println("Let's keep Counting");
+       for (int n = 50; n >= 5; n = n - 5) {
+              System.out.println(+ n);
           }
-
-     for (int n = 10; n >= 0; n = n -1){
-              System.out.println("The count is " + n);
-              System.out.println("Let's keep Counting");
-          }
-
-
-
-
-
+          System.out.println("Im stuck and cant figure out how to do the rest of this. I have other classes to get too.");
 
     }
 }
