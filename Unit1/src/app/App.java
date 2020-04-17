@@ -4,22 +4,27 @@ public class App {
     public static void main(String[] args) throws Exception {
          
       
-        for (int k = 22; k <= 28; k = k +3){
-           System.out.println(+k);
-          }
-      
-       for (int i = 2; i <= 32; i = i * 2){
-              System.out.println(+ i);
-          }
+        for (int i = 22; i <=28; i = i + 3) {
+            System.out.println(i);
+        }
 
-       for (int m = 3; m >= -81; m = m * -m) {
-              System.out.println(+ m);
-          }
+        for (int i = 2; i <=32; i = i * 2) {
+            System.out.println(i);
+        }
 
-       for (int n = 50; n >= 5; n = n - 5) {
-              System.out.println(+ n);
-          }
-          System.out.println("Im stuck and cant figure out how to do the rest of this. I have other classes to get too.");
+        for (int i = 3; i >= -81; i = i * -i) {
+            System.out.println(i);
+        }
 
+        for (int i = 50; i >= 5; i = i - 5) {
+            System.out.println(i);
+        }
+
+        for (int i = 1; i <= 9; i = i + 1) {
+            System.out.println(i * i);
+            System.out.println(i + 3);
+            System.out.println(i);
+            
+        }
     }
 }
