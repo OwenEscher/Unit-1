@@ -4,17 +4,11 @@ public class App {
     public static void main(String[] args) throws Exception {
    
 Scanner input = new Scanner(System.in);
-System.out.println("Password:");
-String password = input.nextLine();
-
-
-if (password.equals("183726073")) {
-    System.out.println("ACCESS GRANTED");
+System.out.println("What is the count");
+int number = input.nextInt();
+for (int i = 1; i <= number; i = i + 1) {
+    System.out.println(i);
 }
-else{
-System.out.println("ACCESS DENIED");
-}
-
 
 
 
